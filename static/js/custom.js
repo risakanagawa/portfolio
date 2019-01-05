@@ -82,7 +82,8 @@
                   loop:true,
                   strings: [
                     'Designer',
-                    'Developer'
+                    'Developer',
+                    'bf lover'
                   ],
                   breakLines: false
               }); 
