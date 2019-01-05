@@ -1,0 +1,31 @@
+.p-btn-2nd,
+.theme-1st {
+  color: #132227;
+}
+
+.blog-item .blog-desk a:hover,
+header .menu-open .navbar-nav li a.active,
+.p-btn-1st,
+.theme-2nd {
+  color: #bf9064;
+}
+
+
+.p-btn-1st,
+.theme-1st-bg {
+	background: #132227;
+}
+
+.p-btn-2nd,
+.theme-2nd-bg {
+	background: #bf9064
+}
+
+
+.home-banner-text:after {
+	border-color:  #132227
+}
+
+.home-banner-text:before {
+	border-color:  #bf9064
+}
