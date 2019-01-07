@@ -23,7 +23,7 @@ export default class Header extends React.Component {
                 </li>
                 <li>
                   <a className="nav-link" href="#aboutme">
-                    About
+                    About Me
                   </a>
                 </li>
                 <li>

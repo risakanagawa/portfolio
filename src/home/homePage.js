@@ -1,8 +1,8 @@
-import Header from './header';
+import Header from '../layout/header';
 
 "use strict";
 
-class App extends React.Component {
+export default class HomePage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -54,7 +54,7 @@ class App extends React.Component {
               <div className="row full-screen align-items-center justify-content-center">
                 <div className="col-12 text-center">
                   <div className="home-banner-text">
-                    <h1>Hello I'm Risa</h1>
+                    <h1>Hello I'm Risaaaaa</h1>
                     <h3>
                       A Professional Web
                       <span id="type-it" />
@@ -524,6 +524,3 @@ class App extends React.Component {
     );
   }
 }
-
-let domContainer = document.querySelector("#main");
-ReactDOM.render(<App />, domContainer);
