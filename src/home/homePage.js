@@ -3,7 +3,7 @@ import Footer from '../layout/footer';
 import Navigation from './navBar';
 import Banner from './banner';
 import AboutMe from './aboutMe';
-import WhatIdo from './services';
+import WhatIlove from './services';
 import Portfolio from './portfolio';
 import Contact from './contact';
 
@@ -19,23 +19,23 @@ export default class HomePage extends React.Component {
         skills: [
           {
             name: 'HTML',
-            level: '80%',
+            level: '90',
           },
           {
             name: 'CSS',
-            level: '70%',
+            level: '85',
           },
           {
             name: 'JavaScript',
-            level: '70%',
+            level: '80',
           },
           {
             name: 'React.js',
-            level: '70%',
+            level: '70',
           },
           {
             name: 'PHP',
-            level: '70%',
+            level: '70',
           },
         ]
       }
@@ -55,8 +55,8 @@ export default class HomePage extends React.Component {
 
         <main>
           <Banner />
-          <AboutMe />
-          <WhatIdo />
+          <AboutMe skills={this.state.user.skills}/>
+          <WhatIlove />
           <Portfolio />
           <Contact />
 

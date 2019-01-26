@@ -218,10 +218,10 @@ img {
 * 04. Header
 -----------------------------------------*/
 header { position: fixed; left: 0; right: 0; top: 0; z-index: 999}
-.fixed-header.navbar { background: rgba(0, 0, 0, 0.88); }
+.fixed-header.navbar { background: rgba(255, 255, 255, 0.88); }
 
 header .navbar-brand {
-  color: #fff;
+  color: rgb(250, 117, 56);
   font-size: 25px;
   font-weight: 900;
   position: relative;
@@ -513,6 +513,10 @@ header .menu-open .navbar-nav li:nth-child(10) a.active:after {
 /*-----------------------------------------
 * 06. Home Banner
 -----------------------------------------*/
+#home {
+  background: #fff;
+}
+
 .home-banner-text {
   display: inline-block;
   padding: 50px;

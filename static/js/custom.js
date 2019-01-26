@@ -81,9 +81,9 @@
                   speed: 200,
                   loop:true,
                   strings: [
-                    'Designer',
-                    'Developer',
-                    'bf lover'
+                    'Web Designer',
+                    'Web Developer',
+                    'Coffee lover'
                   ],
                   breakLines: false
               }); 

@@ -16,90 +16,103 @@ export default class Portfolio extends React.Component {
               <li className="active" data-filter="*">
                 All
               </li>
-              <li data-filter=".illustration">Illustration</li>
-              <li data-filter=".photoshop">Photoshop</li>
               <li data-filter=".website">Website</li>
               <li data-filter=".apps">Apps</li>
+              <li data-filter=".illustration">Design</li>
             </ul>
           </div>
 
           <div className="portfolio-content">
             <ul className="portfolio-cols portfolio-cols-3">
+            <li className="portfolio-item website">
+                <div className="portfolio-col portfolio-hover-01">
+                  <a href="https://github.com/risakanagawa/Aloha">
+                    <img src="static/img/works/aloha.png" title="" alt="aloha project" />
+                  </a>
+                  <div className="hover text-center theme-2nd-bg">
+                    <p className="font-w-700 theme-1st">
+                      Aloha shopping Website<br />
+                      HTML CSS jQuery
+                    </p>
+                    <label className="theme-1st">Website</label>
+                  </div>
+                </div>
+              </li>
               <li className="portfolio-item illustration">
                 <div className="portfolio-col portfolio-hover-01">
                   <a href="#">
-                    <img src="static/img/550x500.jpg" title="" alt="" />
+                    <img src="static/img/works/dailyUI01.gif" title="" alt="" />
                   </a>
                   <div className="hover text-center theme-2nd-bg">
                     <p className="font-w-700 theme-1st">
-                      Illustration Work
+                      Login Design
                     </p>
-                    <label className="theme-1st">illustration</label>
+                    <label className="theme-1st">UI Work</label>
                   </div>
                 </div>
               </li>
-              <li className="portfolio-item photoshop">
+              <li className="portfolio-item illustration">
                 <div className="portfolio-col portfolio-hover-01">
                   <a href="#">
-                    <img src="static/img/550x500.jpg" title="" alt="" />
+                    <img src="static/img/works/dello.png" title="" alt="" />
                   </a>
                   <div className="hover text-center theme-2nd-bg">
                     <p className="font-w-700 theme-1st">
-                      Illustration Work
+                      Dello App
                     </p>
-                    <label className="theme-1st">illustration</label>
-                  </div>
-                </div>
-              </li>
-              <li className="portfolio-item website">
-                <div className="portfolio-col portfolio-hover-01">
-                  <a href="#">
-                    <img src="static/img/550x500.jpg" title="" alt="" />
-                  </a>
-                  <div className="hover text-center theme-2nd-bg">
-                    <p className="font-w-700 theme-1st">
-                      Illustration Work
-                    </p>
-                    <label className="theme-1st">illustration</label>
+                    <label className="theme-1st">App Design</label>
                   </div>
                 </div>
               </li>
               <li className="portfolio-item apps">
                 <div className="portfolio-col portfolio-hover-01">
-                  <a href="#">
-                    <img src="static/img/550x500.jpg" title="" alt="" />
+                  <a href="https://github.com/risakanagawa/Pong-game">
+                    <img src="static/img/works/ponggame.png" title="" alt="" />
                   </a>
                   <div className="hover text-center theme-2nd-bg">
                     <p className="font-w-700 theme-1st">
-                      Illustration Work
+                      Classic Pong Game
                     </p>
-                    <label className="theme-1st">illustration</label>
+                    <label className="theme-1st">Javascript SVG</label>
                   </div>
                 </div>
               </li>
-              <li className="portfolio-item illustration">
+              <li className="portfolio-item apps">
                 <div className="portfolio-col portfolio-hover-01">
-                  <a href="#">
-                    <img src="static/img/550x500.jpg" title="" alt="" />
+                  <a href="https://github.com/risakanagawa/instanewsApp">
+                    <img src="static/img/works/instanews.png" title="" alt="" />
                   </a>
                   <div className="hover text-center theme-2nd-bg">
                     <p className="font-w-700 theme-1st">
-                      Illustration Work
+                      Instanews App
                     </p>
-                    <label className="theme-1st">illustration</label>
+                    <label className="theme-1st">Javascript,NY times API</label>
                   </div>
                 </div>
               </li>
-              <li className="portfolio-item photoshop">
+              <li className="portfolio-item website">
                 <div className="portfolio-col portfolio-hover-01">
-                  <a href="#">
-                    <img src="static/img/550x500.jpg" title="" alt="" />
+                  <a href="https://github.com/risakanagawa/inhabitent">
+                    <img src="static/img/works/inhabitent.png" title="" alt="" />
                   </a>
                   <div className="hover text-center theme-2nd-bg">
                     <p className="font-w-700 theme-1st">
-                      Illustration Work
+                      Inhabitent Website
                     </p>
-                    <label className="theme-1st">illustration</label>
+                    <label className="theme-1st">Wordpress, PHP</label>
+                  </div>
+                </div>
+              </li>
+              <li className="portfolio-item apps">
+                <div className="portfolio-col portfolio-hover-01">
+                  <a href="https://github.com/risakanagawa/dev-quotes">
+                    <img src="static/img/works/devquotes.png" title="dev quotes" alt="" />
+                  </a>
+                  <div className="hover text-center theme-2nd-bg">
+                    <p className="font-w-700 theme-1st">
+                      Quotes on Dev App
+                    </p>
+                    <label className="theme-1st">Wordpress, PHP, API</label>
                   </div>
                 </div>
               </li>

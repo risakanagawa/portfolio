@@ -14,29 +14,23 @@ export default class Contact extends React.Component {
                     <div className="row text-center">
                       <div className="col-12 col-md-4 m-t-15px m-b-15px">
                         <h5 className="font-16 font-w-700 color-white">
-                          My Location
+                          My Current Location
                         </h5>
                         <div className="color-white font-14 opacity8">
-                          301 The Greenhouse, Courtten
-                          <br />
-                          London, E2 8DY.
+                          Vancouver, BC
                         </div>
                       </div>
 
                       <div className="col-12 col-md-4 m-t-15px m-b-15px">
                         <h5 className="font-16 font-w-700 color-white ">My Email</h5>
                         <div className="color-white font-14 opacity8">
-                          infor@yourdomain.com
-                          <br />
-                          support@yourdomain.com
+                          kanagawa.risa@gmail.com
                         </div>
                       </div>
                       <div className="col-12 col-md-4 m-t-15px m-b-15px">
                         <h5 className="font-16 font-w-700 color-white">My Numbers</h5>
                         <div className="color-white font-14 opacity8">
-                          +01 (989) 000 5665
-                          <br />
-                          +01 (989) 000 5665
+                          +01 (778) 222 4563
                         </div>
                       </div>
                     </div>

@@ -9,22 +9,17 @@ export default class Footer extends React.Component {
         <div className="container text-center">
           <ul className="social-icons">
             <li>
-              <a className="theme-1st" href="#">
-                <i className="fa fa-facebook" />
+              <a className="theme-1st" href="https://github.com/risakanagawa">
+                <i className="fa fa-github" />
               </a>
             </li>
             <li>
-              <a className="theme-1st" href="#">
-                <i className="fa fa-twitter" />
+              <a className="theme-1st" href="https://www.instagram.com/kngw/?hl=en">
+                <i className="fa fa-instagram" />
               </a>
             </li>
             <li>
-              <a className="theme-1st" href="#">
-                <i className="fa fa-google-plus" />
-              </a>
-            </li>
-            <li>
-              <a className="theme-1st" href="#">
+              <a className="theme-1st" href="www.linkedin.com/in/risa-kangawa-080a0611a">
                 <i className="fa fa-linkedin" />
                 <span />
               </a>

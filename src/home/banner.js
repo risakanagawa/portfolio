@@ -6,7 +6,7 @@ export default class Banner extends React.Component {
         id="home"
         className="bg-no-repeat bg-cover bg-center-center bg-fixed"
         style={{
-          backgroundImage: "url(static/img/1600x1000.jpg)"
+          backgroundImage: "#fff"
         }}
       >
         <div className="container">
@@ -15,7 +15,7 @@ export default class Banner extends React.Component {
               <div className="home-banner-text">
                 <h1>Hello I'm Risa</h1>
                 <h3>
-                  A Professional Web
+                  A Professional 
                   <span id="type-it" />
                 </h3>
               </div>
