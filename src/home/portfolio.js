@@ -40,7 +40,7 @@ export default class Portfolio extends React.Component {
               </li>
               <li className="portfolio-item illustration">
                 <div className="portfolio-col portfolio-hover-01">
-                  <a href="#">
+                  <a href="static/img/works/dailyUI01.gif" rel="lightbox">
                     <img src="static/img/works/dailyUI01.gif" title="" alt="" />
                   </a>
                   <div className="hover text-center theme-2nd-bg">
@@ -53,8 +53,8 @@ export default class Portfolio extends React.Component {
               </li>
               <li className="portfolio-item illustration">
                 <div className="portfolio-col portfolio-hover-01">
-                  <a href="#">
-                    <img src="static/img/works/dello.png" title="" alt="" />
+                  <a href="static/img/works/dello.png" rel="lightbox">
+                    <img src="static/img/works/dello.png"  />
                   </a>
                   <div className="hover text-center theme-2nd-bg">
                     <p className="font-w-700 theme-1st">

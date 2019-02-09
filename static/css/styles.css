@@ -514,13 +514,16 @@ header .menu-open .navbar-nav li:nth-child(10) a.active:after {
 * 06. Home Banner
 -----------------------------------------*/
 #home {
-  background: #fff;
+  background: url('../img/headshot.jpg');
+  background-position: center;
+  background-size: cover; 
+  background-attachment: fixed;
 }
 
 .home-banner-text {
   display: inline-block;
-  padding: 50px;
-  background: rgba(0,0,0,.9);
+  padding: 100px;
+  background: transparent;
   position: relative;
   z-index: 1;
 }
@@ -554,14 +557,14 @@ header .menu-open .navbar-nav li:nth-child(10) a.active:after {
 
 .home-banner-text h1 {
   color: #fff;
-  font-size: 60px;
+  font-size: 100px;
   font-weight: 700;
   margin: 0 0 15px;
 }
 
 .home-banner-text h3 {
   color: #fff;
-  font-size: 25px;
+  font-size: 45px;
   font-weight: 400;
   margin: 0;
 }
@@ -619,7 +622,7 @@ header .menu-open .navbar-nav li:nth-child(10) a.active:after {
 
 @media (max-width: 991px){
   .home-banner-text h1 {
-    font-size: 45px;
+    font-size: 65px;
   }
 }
 
@@ -629,7 +632,7 @@ header .menu-open .navbar-nav li:nth-child(10) a.active:after {
     width: 90%;
   }
   .home-banner-text h1 {
-    font-size: 25px;
+    font-size: 65px;
   }
   .home-banner-text h3 {
     font-size: 14px;
@@ -750,6 +753,7 @@ header .menu-open .navbar-nav li:nth-child(10) a.active:after {
       -ms-transition: transform 0.35s;
      -moz-transition: transform 0.35s;
           transition: transform 0.35s;
+          border: 5px solid #e3b912;
 }
 .portfolio-hover-01:hover img{
   -webkit-transform: scale(1.20);
