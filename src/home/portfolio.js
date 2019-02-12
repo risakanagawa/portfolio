@@ -24,6 +24,21 @@ export default class Portfolio extends React.Component {
 
           <div className="portfolio-content">
             <ul className="portfolio-cols portfolio-cols-3">
+
+            <li className="portfolio-item website">
+                <div className="portfolio-col portfolio-hover-01">
+                  <a href="https://github.com/risakanagawa/search-events">
+                    <img src="static/img/works/meetup.png" title="" alt="meetup project" />
+                  </a>
+                  <div className="hover text-center theme-2nd-bg">
+                    <p className="font-w-700 theme-1st">
+                      Meetup Search App<br />
+                      React.js, Redux.js
+                    </p>
+                    <label className="theme-1st">Website</label>
+                  </div>
+                </div>
+              </li>
             <li className="portfolio-item website">
                 <div className="portfolio-col portfolio-hover-01">
                   <a href="https://github.com/risakanagawa/Aloha">
