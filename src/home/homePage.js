@@ -52,7 +52,7 @@ export default class HomePage extends React.Component {
           },
           {
             number: "100",
-            text: "Beers"
+            text: "Coffee"
           }
         ]
       }
