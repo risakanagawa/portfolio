@@ -1,11 +1,19 @@
-import HomePage from './home/homePage';
+import HomePage from "./home/homePage";
 
-"use strict";
+import { Provider } from "react-redux";
+import { createStore } from "redux";
+import reducers from "./reducers";
+
+const store = createStore(reducers);
+
+("use strict");
 
 class App extends React.Component {
   render() {
     return (
-      <HomePage />
+      <Provider store={store}>
+        <HomePage />
+      </Provider>
     );
   }
 }

@@ -1,6 +1,10 @@
-export default class AboutMe extends React.Component {
+import React from 'react';
+import { connect } from "react-redux";
+
+
+class AboutMe extends React.Component {
   render() {
-    const techs = this.props.user.skills.map((skill, key) => (
+    const techs = this.props.users.user.skills.map((skill, key) => (
       <div key={key} className="progress-lt">
         <h6 className="color-white">{skill.name}</h6>
         <span className="color-white">{skill.level}%</span>
@@ -16,7 +20,7 @@ export default class AboutMe extends React.Component {
       </div>
     ));
 
-    const hobbies = this.props.user.others.map((hobby, key) => (
+    const hobbies = this.props.users.user.others.map((hobby, key) => (
       <div key={key} className="col-6 col-sm-6 col-md-3 p-t-15px p-b-15px">
         <div className="counter-col">
           <div className="counter-data" data-count="10">
@@ -51,12 +55,12 @@ export default class AboutMe extends React.Component {
                     pratical skills, I believe that everything we've experienced
                     in our life can be mixed up and result in great outcome
                     together. I am really passionate about helping and building
-                    things coming out from just an idea to make something
+                    things coming out from just an idea to make people's lifes
                     better. I code, sometimes design.
                   </p>
                   <p className="color-white">
                     HTML / CSS / Javascript / PHP / WordPress / jQuery / React /
-                    Redux / PhotoShop / Sketch
+                    Redux / Sketch
                   </p>
                 </div>
               </div>
@@ -82,3 +86,12 @@ export default class AboutMe extends React.Component {
     );
   }
 }
+
+const mapStateToProps = state => {
+  console.log(state);
+  return { users: state.users };
+};
+
+export default connect(
+  mapStateToProps
+)(AboutMe);
